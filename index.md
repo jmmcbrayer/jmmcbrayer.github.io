@@ -23,6 +23,25 @@ A video walkthrough of the original applications prior to enhancement.
 
 <br>
 
+# Course Outcomes
+
+- **Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science**
+  - TODO: Update with how this was met
+
+- **Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts**
+  - TODO: Update with how this was met
+
+- **Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices**
+  - TODO: Update with how this was met
+
+- **Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals**
+  - TODO: Update with how this was met
+
+- **Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources**  
+  - TODO: Update with how this was met
+
+<br>
+
 # Enhancments
 
 ## Software Design and Engineering
@@ -52,6 +71,13 @@ During the process of enhancing the artifact I was able to reflect and review th
 
 
 ## Databases
+[**Original Code**](https://github.com/jmmcbrayer/jmmcbrayer.github.io/tree/main/Databases/Original)  
+[**Enhanced Code**](https://github.com/jmmcbrayer/jmmcbrayer.github.io/tree/main/Databases/Enhanced)
+The artifact used for this enhancement was a database designed, deployed and updated in my DAD-220 Database classwork.  This was originally part of the final project to build a basic database and run a few queries using different SQL statements.  Build a SQL script that would build a new database and populate it with a modified set of data that could be used with some other queries to demonstrate more advanced functionality.  So, for this the original database and table structure were reproduced with a script and then the queries allow us to pull data in different ways that would be useful in a business.
+
+I chose this artifact to include in my ePortfoloio because it allows me to demonstrate my ability to build and manipulate data in mySQL from starting from nothing and having a fully functional and usable database.  The script was developed to show the original queries that were included in the original project.  Another script demonstrates how to build the database, create the tables, populate from csv files (but could also add in data directly from the script).  The final New_Scripts.sql is a combination of all the new queries that pull and present data in a variety of ways.   was able to meet the course outcomes I planned to meet with this enhancement by fulfilling the requirements of the Database sections showing creation and manipulation of a database.  All scripts were tested to validate proper functionality, and screenshots were captured to demonstrate each.
+
+During the process of enhancing the artifact I was able to reflect and review on how SQL queries are structured and different techniques that can be implemented.  I was able to learn how to build a SQL script and how it is run in a database to automate tasks.  I also had to do a bit of research on SQL queries to learn how they should be structured when you do more advanced things including sub queries.  When working with more basic queries you don’t really have to use aliases to identify fields, but I found that with subqueries it becomes necessary as SQL was returning a lot of ambiguous error messages.  At first, I thought it was easier to follow the logic of a query with full names, but at the end of this enhancement I found that aliases are even easier and faster to work with when designing queries.  By the end of this enhancement I was not only able to demonstrate complex queries, but also more efficient design.
 
 <br>
 
