@@ -3,6 +3,7 @@ layout: default
 title: CS-499 Capstone
 ---
 
+<!-- Link to your custom CSS -->
 <link rel="stylesheet" href="style.css">
 
 <header>
@@ -38,7 +39,8 @@ TODO: Update professional Self-Assessment content
 
 # Code Review
 
-A video walkthrough of the original applications prior to enhancment.
+A video walkthrough of the original applications prior to enhancement.
+
 <iframe width="560" height="315"
   src="https://www.youtube.com/embed/K1w2KWmQNFo?si=MGUWxVfmIZuQEB9N" 
   title="YouTube video player" 
@@ -50,16 +52,13 @@ A video walkthrough of the original applications prior to enhancment.
 ## About
 
 I created this site to showcase my work, projects, and professional experience.  
-It’s powered by Markdown for easy editing, and styled with a clean, modern design.
+It’s powered by **Markdown** for easy editing, and styled with a clean, modern design.
 
 ## Projects
 
 - Software Design and Engineering
 - Algorithms and Data Structures
 - Databases
-
-
-
 
 ## Contact
 
