@@ -13,14 +13,13 @@ TODO: Update professional Self-Assessment content
 
 A video walkthrough of the original applications prior to enhancement.
 
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/K1w2KWmQNFo?si=MGUWxVfmIZuQEB9N" 
-          title="YouTube video player" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          allowfullscreen>
-  </iframe>
-</div>
+<iframe width="600" height="355"
+  src="https://www.youtube.com/embed/K1w2KWmQNFo?si=MGUWxVfmIZuQEB9N" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
 
 <br>
 
