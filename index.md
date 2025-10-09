@@ -7,6 +7,8 @@ title: ePortfolio
 
 TODO: Update professional Self-Assessment content
 
+<br>
+
 # Code Review
 
 A video walkthrough of the original applications prior to enhancement.
@@ -18,6 +20,8 @@ A video walkthrough of the original applications prior to enhancement.
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
   referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 </iframe>
+
+<br>
 
 # Enhancments
 
@@ -35,9 +39,21 @@ During the process of enhancing the artifact I was able to reflect and review th
 
 
 ## Algorithms and Data Structures	
+[**Original Code**](https://github.com/jmmcbrayer/jmmcbrayer.github.io/tree/main/Algorithms%20and%20Data%20Structures/Original)  
+[**Enhanced Code**](https://github.com/jmmcbrayer/jmmcbrayer.github.io/tree/main/Algorithms%20and%20Data%20Structures/Enhanced)
+
+The artifact used for this enhancement was also an application written during my CS-300 Data Structures and Algorithms classwork using a combination of the ported LinkeLists application with an additional enhancement from the VectorSorting application.  The application retains it original functionality to input data into a list but has been enhanced to include the ability to sort the data in multiple ways.  Not only were the algorithms from VectorSorting included, but also some additional ones demonstrating the difference in efficiency depending on what was used.  Ultimately the build in Python sorting algorithm was the most efficient, but for demonstration purposes several can be evaluated for comparison.	
+
+I chose this artifact to include in my ePortfoloio because it allows me to demonstrate not only further building on an existing application, but also different ways that data can be manipulated and sorted to make it more useful to the user.  The data is already being structured in a list, and this enhancement introduces algorithms to sort the data by either the ID or the title of every bid that is loaded in.  The application will evaluate multiple sorting algorithms and let the user know the most efficient one.  This provides an example of a real-world situation where data is being collected but may not be in a very useful order.  While there are options to search for information, when reviewing the list, it may be difficult to find particular pieces of information. Being able to quickly and easily organize it is a common need when working with a data set.
+
+I was able to meet the course outcomes I planned to meet with this enhancement by fulfilling the requirements of the Algorithms and Data Structures sections but also further demonstrating my ability to develop secure and reliable coding.  As with the first enhancement each function is broken down into simple sections for easy support and error handling can gracefully deal with invalid input and provide useful information to the user instead of crashing the application.  At this point I do not believe there is any update needed for my outcome-coverage plans as the other sections will address the remaining items.
+
+During the process of enhancing the artifact I was able to reflect and review the variations between the different ways and algorithms used to manipulate and sort a data set.  Python does have its own sorting algorithms built in and is used as well, but as the assignment was to develop sorting algorithms, I incorporated those as well.  I was able to port over the algorithms from the C++ VectorSorting application in a similar manner to the LinkedList application, but during my research I found several other sorting algorithms that were more efficient than some of the others used.  It took a little bit of reading online, but I was able to get them working in my application.  In the end I discovered that the built in sorting Python provides is the most efficient and decided to use that as my primary sorting option, but the others are there for demonstration.
+
 
 ## Databases
 
+<br>
 
 # Contact
 
