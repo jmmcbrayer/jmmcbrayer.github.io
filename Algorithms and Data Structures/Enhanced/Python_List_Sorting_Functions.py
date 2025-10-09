@@ -2,7 +2,7 @@
 # Name        : Python_List_Sorting_Functions.py
 # Author      : Michael McBrayer
 # Version     : 1.0
-# Copyright   : Copyright © 2017 SNHU COCE
+# Copyright   : Copyright © 2017 SNHU CODE
 # Description : CS-449 Capstone Project to port LinkedList.cpp to Python
 #               This file provides supporting functions to implement different
 #               sorting algorithms.  These were ported in part from VecroSorting.cpp.

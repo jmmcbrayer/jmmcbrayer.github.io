@@ -1,10 +1,3 @@
-# jmmcbrayer.github.io
+# Michael McBrayer CS-499 Computer Science Capstone
 
-## Code Review
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/K1w2KWmQNFo?si=MGUWxVfmIZuQEB9N" 
-  title="YouTube video player" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-</iframe>
+This repository contains all artifacts and information used for the final project of the SNHU CS-499 Computer Science Capstone.

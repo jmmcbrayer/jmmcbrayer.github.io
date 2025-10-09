@@ -2,8 +2,8 @@
 # Name        : Python_List_Classes.py
 # Author      : Michael McBrayer
 # Version     : 1.0
-# Copyright   : Copyright © 2017 SNHU COCE
-# Description : CS-449 Capstone Project to port LinkedList.cpp to Pythoon
+# Copyright   : Copyright © 2017 SNHU CODE
+# Description : CS-449 Capstone Project to port LinkedList.cpp to Python
 #               Provides Bid, and PythonList class information
 #============================================================================
 

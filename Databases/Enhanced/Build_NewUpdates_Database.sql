@@ -1,4 +1,4 @@
----- This SQL script will recreat the whole projects 1 and 2 from SNHU DAD-220 class ----
+---- This SQL script will recreate the whole projects 1 and 2 from SNHU DAD-220 class ----
 ---- This script also contains additional advance SQL queries that were not previously developed ----
 ---- For running individual queries uncomment what is needed or copy and create a new query for specific needs ----
 
@@ -11,7 +11,7 @@ USE QuantigrationUpdates;
 DROP TABLE IF EXISTS Customers;
 
 ---- Create a table specifying the correct data type. ----
----- This buids a Customers table and sets the CustomerID to the primary key. ----
+---- This builds a Customers table and sets the CustomerID to the primary key. ----
 CREATE TABLE Customers (
     CustomerID INT,
     FirstName VARCHAR(50),
@@ -26,7 +26,7 @@ CREATE TABLE Customers (
 
 DROP TABLE IF EXISTS Orders;
 
----- Build an Orders table and set the prmary key to OrderID and the Foreign key to CustomerID and it references the Cusomters table CustomerID ----
+---- Build an Orders table and set the primary key to OrderID and the Foreign key to CustomerID and it references the Cusomters table CustomerID ----
 CREATE TABLE Orders (
     OrderID INT,
     CustomerID INT,

@@ -2,8 +2,8 @@
 # Name        : Python_List.py
 # Author      : Michael McBrayer
 # Version     : 1.0
-# Copyright   : Copyright © 2017 SNHU COCE
-# Description : CS-449 Capstone Project to port LinkedList.cpp to Pythoon
+# Copyright   : Copyright © 2017 SNHU CODE
+# Description : CS-449 Capstone Project to port LinkedList.cpp to Python
 #============================================================================
 
 import time
@@ -25,7 +25,7 @@ if __name__ == "__main__":
         print("  6. Remove Bid")
         print("  9. Exit")
 
-        # to handle invalid input (ie. letters or symbosls that would cause the application to crash.)  Input accepts integers only.
+        # to handle invalid input (ie. letters or symbols that would cause the application to crash.)  Input accepts integers only.
         try:
             choice = int(input("Enter choice: "))
         except:
@@ -42,7 +42,7 @@ if __name__ == "__main__":
                 bid.printBid()
                 print()
 
-            case 2:  # Create a new bid and prespend to the beginning of the list.
+            case 2:  # Create a new bid and prepend to the beginning of the list.
                 print()
                 bid = createBid()
                 PythonList.prependList(bid)
@@ -104,5 +104,5 @@ if __name__ == "__main__":
                 print("Good bye.\n\n")
                 break
             
-            case _:  # Dafault case if invalid number is entered
+            case _:  # Default case if invalid number is entered
                 print("\nInvalid option.  Please try again.\n")

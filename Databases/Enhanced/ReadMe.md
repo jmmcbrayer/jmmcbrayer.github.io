@@ -1,5 +1,5 @@
 ## Note on SQLScripts.sql
-This file was developed to demonstrate all of the tasks that were performed in the original project, but in SQL script format.  It is not use for the enhancment, but strictly for demonstration purposes.
+This file was developed to demonstrate all of the tasks that were performed in the original project, but in SQL script format.  It is not use for the enhancement, but strictly for demonstration purposes.
 
 ## SQL Script Usage
 First you must have a running SQL database environment to utilize these scripts.

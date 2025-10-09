@@ -2,7 +2,7 @@
 # Name        : Python_List_Sorting.py
 # Author      : Michael McBrayer
 # Version     : 1.0
-# Copyright   : Copyright © 2017 SNHU COCE
+# Copyright   : Copyright © 2017 SNHU CODE
 # Description : CS-449 Capstone Project to port LinkedList.cpp to Python
 #============================================================================
 
