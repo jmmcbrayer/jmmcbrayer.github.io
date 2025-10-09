@@ -1,0 +1,6 @@
+﻿  VectorSorting.cpp
+C:\Users\jmmcb\source\repos\VectorSorting\VectorSorting\VectorSorting.cpp(94,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jmmcb\source\repos\VectorSorting\VectorSorting\VectorSorting.cpp(213,18): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\jmmcb\source\repos\VectorSorting\VectorSorting\VectorSorting.cpp(219,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\jmmcb\source\repos\VectorSorting\VectorSorting\VectorSorting.cpp(327,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  VectorSorting.vcxproj -> C:\Users\jmmcb\source\repos\VectorSorting\x64\Debug\VectorSorting.exe
