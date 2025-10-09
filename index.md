@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CS-499 Capstone
+title: ePortfolio
 ---
 
 <!-- Link to your custom CSS -->
