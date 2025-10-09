@@ -31,8 +31,6 @@ title: ePortfolio
   </a>
 </header>
 
-<main>
-
 # Professional Self-Assessment
 
 TODO: Update professional Self-Assessment content
@@ -63,8 +61,6 @@ It’s powered by **Markdown** for easy editing, and styled with a clean, modern
 ## Contact
 
 You can reach me on [GitHub](https://github.com/jmmcbrayer) or email me at *jmmcbrayer@gmail.com*.
-
-</main>
 
 <footer>
   <p>© 2025 Michael McBrayer</p>
