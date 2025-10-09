@@ -16,7 +16,10 @@ A video walkthrough of the original applications prior to enhancement.
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/K1w2KWmQNFo?si=MGUWxVfmIZuQEB9N" 
           title="YouTube video player" 
-          frameborder="0" allowfullscreen></iframe>
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+  </iframe>
 </div>
 
 <br>
