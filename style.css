@@ -1,111 +1,99 @@
-/* General resets and base styles */
-* {
+/* General body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  background: #f5f5f5;
+  color: #333;
 }
 
-body {
-  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  background-color: #f5f7fa;
-  color: #222;
-  line-height: 1.6;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-/* Dark banner header */
+/* Header styling */
 header {
   background: linear-gradient(90deg, #0a0a0a, #222);
-  color: #fff;
-  text-align: center;
+  color: #ffffff;
   padding: 2rem 1rem;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  position: relative;
+  text-align: center;
 }
 
 header h1 {
-  font-size: 2.2rem;
-  letter-spacing: 1px;
+  margin: 0;
+  font-size: 2.5rem;
 }
 
 header p {
-  color: #bbb;
-  font-size: 1rem;
-  margin-top: 0.5rem;
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
-/* Main content container */
+/* GitHub button styling */
+.github-link {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #444;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.github-link:hover {
+  background: #666;
+  transform: translateY(-2px);
+}
+
+.github-link svg {
+  fill: currentColor;
+}
+
+/* Main content styling */
 main {
-  flex: 1;
   max-width: 900px;
-  background: #fff;
   margin: 2rem auto;
-  padding: 2.5rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 0 1rem;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Typography */
+/* Headings */
 h1, h2, h3 {
   color: #111;
-  margin-bottom: 0.75rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 1.5rem;
 }
 
 h2 {
-  border-bottom: 2px solid #eee;
-  padding-bottom: 0.4rem;
-  margin-top: 2rem;
+  font-size: 1.5rem;
+  margin-top: 1.2rem;
 }
 
-p, li {
-  font-size: 1.05rem;
-  margin-bottom: 1rem;
+h3 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
 }
 
-/* Links */
-a {
-  color: #0366d6;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-a:hover {
-  color: #024ea0;
-  text-decoration: underline;
+/* Lists */
+ul {
+  padding-left: 1.5rem;
 }
 
-/* Footer (optional if you want to add later) */
+/* Footer */
 footer {
-  background: #111;
-  color: #999;
   text-align: center;
   padding: 1rem;
-  font-size: 0.9rem;
-}
-
-/* Ensure header background and text are visible */
-header,
-.header, 
-.site-header,
-.page-header {
-  background: linear-gradient(90deg, #0a0a0a, #222);
+  background: #222;
   color: #fff;
-}
-
-/* Target heading and subtitle inside header with high specificity */
-header h1,
-header h2,
-header p,
-.header h1,
-.site-header h1,
-.page-header h1,
-.header p,
-.site-header p {
-  color: #ffffff !important;
-}
-
-/* Make links in the header readable */
-header a,
-.site-header a {
-  color: #bfe1ff !important;
+  margin-top: 2rem;
 }
